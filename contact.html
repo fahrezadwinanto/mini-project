@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Stab Jakarta</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 left-0 z-10 w-full bg-white shadow-lg bg-opacity-90">
+        <div class="container flex items-center justify-between px-6 py-4 mx-auto">
+            <div class="flex items-center">
+                <img src="images/stab-hero-photoshop.png" class="w-40 cursor-pointer" alt="Logo">
+            </div>
+            <div class="justify-center flex-1 hidden md:flex">
+                <ul class="flex space-x-5">
+                    <li><a href="index.html" class="text-black no-underline hover:text-gray-700">Home</a></li>
+                    <li><a href="about.html" class="text-black no-underline hover:text-gray-700">About</a></li>
+                    <li><a href="menu.html" class="text-black no-underline hover:text-gray-700">Menu</a></li>
+                    <li><a href="contact.html" class="text-black no-underline hover:text-gray-700">Contact</a></li>
+                </ul>
+            </div>
+            <div class="flex items-center">
+                <img src="images/cart.png" class="w-8 cursor-pointer" alt="Cart">
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="pt-24 text-center bg-gray-200">
+        <div class="container mx-auto">
+            <h1 class="text-4xl font-extrabold text-gray-900">Contact Us</h1>
+            <p class="mt-4 text-lg text-gray-700">We'd love to hear from you</p>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <!-- Contact Section -->
+    <section class="py-10">
+        <div class="container mx-auto">
+            <div class="flex flex-col items-center space-y-8 md:flex-row md:space-y-0 md:space-x-8">
+                <div class="w-full max-w-md p-6 bg-white rounded-md shadow-lg md:mx-auto">
+                    <h2 class="text-3xl font-semibold text-center text-gray-900">Get in Touch</h2>
+                    <p class="mt-4 text-center text-gray-700">Fill out the form below and we'll get back to you as soon as possible.</p>
+                    <form class="mt-6 space-y-4">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                            <input type="text" id="name" class="block w-full px-4 py-2 mt-1 text-gray-900 bg-gray-200 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                            <input type="email" id="email" class="block w-full px-4 py-2 mt-1 text-gray-900 bg-gray-200 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                            <textarea id="message" rows="4" class="block w-full px-4 py-2 mt-1 text-gray-900 bg-gray-200 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"></textarea>
+                        </div>
+                        <button type="submit" class="block w-full px-4 py-2 text-white bg-blue-600 rounded-md hover:bg-blue-700">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="py-10 bg-white">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold text-center text-gray-900">Our Location</h2>
+            <div class="mt-8">
+                <div class="flex justify-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15864.7211738591!2d106.8121887!3d-6.2399532!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f18ed514e3af%3A0x7ad731d75ed6739f!2sSTAB%20Ricebowl!5e0!3m2!1sen!2sid!4v1720107786407!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-8 text-white bg-orange-800">
+        <div class="container px-6 mx-auto text-center">
+            <p>&copy; 2024 Stab Jakarta. All rights reserved.</p>
+            <div class="flex justify-center mt-4">
+                <a href="#" class="mx-2"><img src="images/instagram-icon-removebg-preview.png" alt="Instagram" class="w-6 h-6"></a>
+                <a href="#" class="mx-2"><img src="images/gofood-logo.png" alt="GoFood" class="w-6 h-6"></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
